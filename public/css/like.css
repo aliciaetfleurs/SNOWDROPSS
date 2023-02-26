@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.hide{
+    opacity: 0;
+    transition: 0.5s;
+}
+.outline-heart{
+    opacity: 1;
+    transition: 0.5s;
+}
+.fill-heart{
+    opacity: 1;
+    transition: 0.5s;
+}

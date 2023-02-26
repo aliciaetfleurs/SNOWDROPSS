@@ -1,0 +1,222 @@
+:root {
+    --main-bg-color: #F3F6FA;
+    --main-bg-color-alpha: rgba(244, 247, 250, 0.85);
+    --main-str-color: rgb(244, 244, 244);
+    --gray-str-color: rgb(102, 102, 102);
+    --gray-border-color: #23bcde6c;
+    --sub-str-color: #5AA9DF;
+    --sub-str-color-alpha: #37b8d570;
+    --sub-str-color-shadow: #37b8d581;
+    --black-str-color: rgb(42, 50, 56);
+    --black-str-color-alpha: rgba(42, 50, 56, 0.8);
+    --range-color: rgb(145, 152, 164);
+}
+
+input,
+output {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+}
+
+output {
+  background: var(--gray-str-color);
+  padding: 5px 16px;
+  border-radius: 3px;
+  color: #fff;
+}
+
+
+
+#volume:focus {
+  box-shadow: 0 0 3px 1px #4b81dd;
+  outline: none;
+}
+
+#volume {
+  -webkit-appearance: none;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 80px;
+  height: 5px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background-image: linear-gradient(var(--range-color), var(--range-color));
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+}
+
+/* Input Thumb */
+#volume::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  opacity: 0;
+  background: var(--range-color);
+  cursor: default;
+  transition: background 0.3s ease-in-out;
+}
+
+#volume::-moz-range-thumb {
+  -webkit-appearance: none;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  opacity: 0;
+  background: var(--range-color);
+  cursor: default;
+  transition: background 0.3s ease-in-out;
+}
+
+#volume::-ms-thumb {
+  -webkit-appearance: none;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  opacity: 0;
+  background: var(--range-color);
+  cursor: default;
+  transition: background 0.3s ease-in-out;
+}
+
+#volume::-webkit-slider-thumb:hover {
+  background: var(--range-color);
+}
+
+#volume::-moz-range-thumb:hover {
+  background: var(--range-color);
+}
+
+#volume::-ms-thumb:hover {
+  background: var(--range-color);
+}
+
+/* Input Track */
+#volume::-webkit-slider-runnable-track  {
+  -webkit-appearance: none;
+  box-shadow: none;
+  border: none;
+  background: transparent;
+}
+
+#volume::-moz-range-track {
+  -webkit-appearance: none;
+  box-shadow: none;
+  border: none;
+  background: transparent;
+}
+
+#volume::-ms-track {
+  -webkit-appearance: none;
+  box-shadow: none;
+  border: none;
+  background: transparent;
+}
+
+#progress:focus {
+  outline: none;
+}
+
+#progress {
+  -webkit-appearance: none;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 80px;
+  height: 5px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background-image: linear-gradient(var(--range-color), var(--range-color));
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+}
+
+/* Input Thumb */
+#progress::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  opacity: 0;
+  background: var(--range-color);
+  cursor: default;
+  transition: background 0.3s ease-in-out;
+}
+
+#progress::-moz-range-thumb {
+  -webkit-appearance: none;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  opacity: 0;
+  background: var(--range-color);
+  cursor: default;
+  transition: background 0.3s ease-in-out;
+}
+
+#progress::-ms-thumb {
+  -webkit-appearance: none;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  opacity: 0;
+  background: var(--range-color);
+  cursor: default;
+  transition: background 0.3s ease-in-out;
+}
+
+#progress::-webkit-slider-thumb:hover {
+  background: var(--range-color);
+}
+
+#progress::-moz-range-thumb:hover {
+  background: var(--range-color);
+}
+
+#progress::-ms-thumb:hover {
+  background: var(--range-color);
+}
+
+/* Input Track */
+#progress::-webkit-slider-runnable-track  {
+  -webkit-appearance: none;
+  box-shadow: none;
+  border: none;
+  background: transparent;
+}
+
+#progress::-moz-range-track {
+  -webkit-appearance: none;
+  box-shadow: none;
+  border: none;
+  background: transparent;
+}
+
+#progress::-ms-track {
+  -webkit-appearance: none;
+  box-shadow: none;
+  border: none;
+  background: transparent;
+}
+
+#progress{
+  width: 280px;
+}
+
+time{
+  width: 30px;
+  display: block;
+  font-size: 14px;
+}
+#playTimeCurrent{
+  text-align: left;
+}
+#playTimeDuration{
+  text-align: right;
+}
+
+.playStatus{
+  display: flex;
+  align-items: center;
+}
