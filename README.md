@@ -6,7 +6,7 @@
 
 <br>
 
-![SNOWDROPSS](https://user-images.githubusercontent.com/88775149/228706723-e23b5f84-4214-4afc-802b-385eaff7169b.jpg)
+![SNOWDROPSSborder](https://user-images.githubusercontent.com/88775149/229266867-a1e5ac2b-fac4-43d7-9e3a-28e80fa28a40.png)
 
 <br>
 
