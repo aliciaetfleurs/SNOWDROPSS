@@ -3,15 +3,20 @@
 <br>
 
 > **OVERVIEW**
-<p style="color: #333333;">個人制作した『 SNOWDROPSS 』という<strong>音楽共有サイト</strong>です。<br>
+
+<br>
+
+![SNOWDROPSS](https://user-images.githubusercontent.com/88775149/228706723-e23b5f84-4214-4afc-802b-385eaff7169b.jpg)
+
+<br>
+
+<p>個人制作した『 SNOWDROPSS 』という<strong>音楽共有サイト</strong>です。<br>
 PHPフレームワークの <strong>Laravel</strong> を使用し、いいね機能やフォローなどの非同期処理は<strong> Vue.js </strong>を用いて制作しました。
 データベースは<strong> SQL Server </strong>を利用しています。アマチュアアーティスト向けに作りたかったので、アーティストの路上ライブのスケジュールが表示される機能を実装してみました。
 今まで学校ではWEBサイトのデザインがほとんどで、WEBサービス系のシステム的な部分のUIデザインを考えていきたいと思い制作しました。<strong>【 制作期間 : 1ヵ月半 】</strong>
 </p>
 
 <br>
-
-![SNOWDROPSS](https://user-images.githubusercontent.com/88775149/228706723-e23b5f84-4214-4afc-802b-385eaff7169b.jpg)
 
 <hr>
 
